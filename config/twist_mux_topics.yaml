@@ -8,19 +8,15 @@
 twist_mux:
   ros__parameters:
     topics:
-      navigation:
-        topic   : nav_vel
-        timeout : 0.5
+      wall_follow:
+        topic: wall_follow_vel
+        timeout: 0.5
         priority: 10
-      joystick:
-        topic   : joy_vel
-        timeout : 0.5
-        priority: 100
-      keyboard:
-        topic   : key_vel
-        timeout : 0.5
-        priority: 90
-      tablet:
-        topic   : tab_vel
-        timeout : 0.5
-        priority: 100
+      stop:
+        topic: stop_vel
+        timeout: 0.5
+        priority: 20
+      intersection:
+        topic: intersection_vel
+        timeout: 0.5
+        priority: 20
