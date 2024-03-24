@@ -19,4 +19,4 @@ twist_mux:
       intersection:
         topic: intersection_vel
         timeout: 0.5
-        priority: 20
+        priority: 30
